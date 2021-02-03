@@ -1,0 +1,17 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="RIGHT_MARGIN" value="100" />
+    <option name="SOFT_MARGINS" value="72,79,100" />
+    <JSCodeStyleSettings version="0">
+      <option name="FORCE_SEMICOLON_STYLE" value="true" />
+      <option name="FORCE_QUOTE_STYlE" value="true" />
+      <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+    </JSCodeStyleSettings>
+    <codeStyleSettings language="JAVA">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    </codeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+      <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    </codeStyleSettings>
+  </code_scheme>
+</component>
