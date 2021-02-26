@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WallArea.iml" filepath="$PROJECT_DIR$/WallArea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarpetCostCalculator.iml" filepath="$PROJECT_DIR$/CarpetCostCalculator.iml" />
     </modules>
   </component>
 </project>
