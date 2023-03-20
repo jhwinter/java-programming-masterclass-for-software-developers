@@ -1,4 +1,11 @@
-package academy.learnprogramming;
+package coding.exercise.immutableClass;
+
+import java.util.HashMap;
+
+
+/*
+    Edit the code by following the steps in the description
+*/
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,19 +18,13 @@ public final class Location {
     public Location(int locationID, String description, Map<String, Integer> exits) {
         this.locationID = locationID;
         this.description = description;
-        // this.exits = new HashMap<String, Integer>();
-        // this.exits = exits;
         if (exits != null) {
-            this.exits = new HashMap<>(exits);
+            this.exits = new HashMap<String, Integer>(exits);
         } else {
             this.exits = new HashMap<>();
         }
         this.exits.put("Q", 0);
     }
-
-    // public void addExit(String direction, int location) {
-    //     exits.put(direction, location);
-    // }
 
     public int getLocationID() {
         return locationID;
