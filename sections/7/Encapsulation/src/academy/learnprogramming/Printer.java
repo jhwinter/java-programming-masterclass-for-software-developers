@@ -34,10 +34,10 @@ public class Printer {
         System.out.println("printPages -> Printing page(s)");
         int pagesToPrint = pages;
         if (this.isDuplex) {
-            pagesToPrint /= (pages / 2) + (pages % 2);
+            pagesToPrint = (pages / 2) + (pages % 2);
             System.out.println("Printing in duplex mode");
         }
         this.pagesPrinted += pagesToPrint;
-        return this.pagesPrinted;
+        return pagesToPrint;
     }
 }
