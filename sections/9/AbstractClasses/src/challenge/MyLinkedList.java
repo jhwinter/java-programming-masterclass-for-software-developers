@@ -106,5 +106,12 @@ public class MyLinkedList implements NodeList {
                 root = root.next();
             }
         }
+        // don't create recursive linked list's because it would quickly
+        // result in stack overflow
+        // but this is how it would look
+        // if (root != null) {
+        //     System.out.println(root.getValue());
+        //     traverse(root.next());
+        // }
     }
 }
